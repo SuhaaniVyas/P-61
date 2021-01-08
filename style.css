@@ -1,0 +1,72 @@
+h1 {
+    text-align: center;
+}
+#what {
+background-color: aqua;
+    font-size: 40px;
+    padding-top: 20px;
+    font-style: italic;
+}
+#explain {
+text-align: center;
+    background-color: deeppink;
+    font-size: 30px;
+    font-style: italic;
+}
+.line {
+    height: 6px;
+    width: 70px;
+    background-color: black;
+    margin: auto;
+}
+body {
+    text-align: center;
+    padding-top: 500;
+}
+img {
+    width: 300px;
+}
+img {
+    transition: transform .2s;
+}
+img:hover {
+    transform: scale(0.9);
+}
+.menu {
+    list-style: none;
+    font-family: cursive;
+    position: fixed;
+    top: 0px;
+    cursor: pointer;
+    color: black;
+    font-size: 20px;
+    margin-top: 0px;
+    margin-left: 0px;
+    background-color: white;
+    width: 100%;
+}
+html {
+scroll-behavior: smooth;
+}
+.link {
+    display: inline;
+    padding-top: 5px;
+    padding-right: 9px;
+    padding-left: 9px;
+    padding-bottom: 5px;
+}
+.link:hover {
+    background-color: plum;
+    font-size: 30px;
+    text-decoration: underline;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+a:hover {
+    color: deeppink;
+}
+h3 {
+    display: inline
+}
